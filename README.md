@@ -13,6 +13,20 @@ near ~20 % tempo loss (reps in reserve) instead of training to failure.
   set1 uses the real measured rep timing; sets 2-4 use generated timing.
 - The assistant prints the data source in its banner every run.
 
+## Real-EMG caveat
+This project has **not been validated on real EMG**. The Advancer Muscle Sensor v3
+on the author's board has no gain control, and during the push-up take its output
+stayed at rest level, so no usable activation signal was recorded. Consequently:
+- The rep tracker, fatigue metrics and fatigue-point model were built and tested on
+  simulated envelopes. Their accuracy numbers (32/32 reps, 3.0 vs 4.0 reps error)
+  show the pipeline works on that signal, not that it works on a real muscle.
+- The fatigue-point model was trained on simulated sets and checked on one set
+  (real timing, simulated EMG), so it is not evidence of real-athlete performance.
+- Real EMG may differ in noise, drift, crosstalk and amplitude behaviour with
+  fatigue; thresholds (e.g. `PRIOR_AMP`, `MIN_PEAK`) would need re-tuning.
+- Next step: a gain-controlled sensor, several subjects, and evaluation on
+  recorded EMG with video-derived rep counts as reference.
+
 ## Files
 - `record.py`, `live.py`, `arduino/`: sensor + camera recording tools
 - `reps_from_video.py`: rep timing from video motion (optical flow, no pose model)
