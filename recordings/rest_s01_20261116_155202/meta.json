@@ -1,0 +1,20 @@
+{
+  "label": "rest",
+  "muscle": "triceps",
+  "subject": "s01",
+  "notes": "",
+  "duration": 10.0,
+  "port": "/dev/ttyUSB0",
+  "baud": 115200,
+  "camera": 0,
+  "fps": 30.0,
+  "preview": true,
+  "fake": false,
+  "no_camera": false,
+  "no_emg": false,
+  "out": "recordings",
+  "emg_samples": 5015,
+  "emg_hz_measured": 499.8,
+  "video_fps_measured": 18.8,
+  "emg_type": "envelope (Advancer v3: rectified+smoothed), 10-bit ADC"
+}

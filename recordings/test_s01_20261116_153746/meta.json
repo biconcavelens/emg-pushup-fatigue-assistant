@@ -1,0 +1,19 @@
+{
+  "label": "test",
+  "muscle": "triceps",
+  "subject": "s01",
+  "notes": "",
+  "duration": 14.0,
+  "port": "/dev/ttyUSB0",
+  "baud": 115200,
+  "camera": 0,
+  "fps": 30.0,
+  "preview": false,
+  "fake": false,
+  "no_camera": true,
+  "out": "recordings",
+  "emg_samples": 7014,
+  "emg_hz_measured": 500.0,
+  "video_fps_measured": 0,
+  "emg_type": "envelope (Advancer v3: rectified+smoothed), 10-bit ADC"
+}

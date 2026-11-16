@@ -1,0 +1,25 @@
+{
+  "simulated": true,
+  "name": "set4_stop_at_20pct",
+  "reps_true": 16,
+  "bottoms_s": [
+    3.837,
+    5.145,
+    6.453,
+    7.762,
+    9.126,
+    10.36,
+    11.746,
+    13.157,
+    14.43,
+    15.879,
+    17.315,
+    18.858,
+    20.343,
+    21.894,
+    23.51,
+    25.063
+  ],
+  "fatigue_gain": 0.45,
+  "description": "EMG and timing SIMULATED; stopped near 20% tempo loss"
+}

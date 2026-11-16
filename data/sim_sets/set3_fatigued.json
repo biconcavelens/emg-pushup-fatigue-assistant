@@ -1,0 +1,31 @@
+{
+  "simulated": true,
+  "name": "set3_fatigued",
+  "reps_true": 22,
+  "bottoms_s": [
+    3.703,
+    5.011,
+    6.394,
+    7.732,
+    9.074,
+    10.549,
+    12.116,
+    13.681,
+    15.404,
+    17.274,
+    19.144,
+    21.076,
+    23.262,
+    25.587,
+    28.177,
+    30.635,
+    33.351,
+    36.229,
+    39.161,
+    42.611,
+    46.366,
+    50.122
+  ],
+  "fatigue_gain": 1.0,
+  "description": "EMG and timing SIMULATED; third set, fewer reps"
+}

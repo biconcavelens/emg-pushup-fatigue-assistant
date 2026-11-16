@@ -1,0 +1,25 @@
+{
+  "n_sets": 389,
+  "k_reps": 8,
+  "models": {
+    "baseline (mean)": {
+      "cv_mae_reps": 3.6953519501476637,
+      "heldout_mae_reps": 3.9879725085910653
+    },
+    "ridge": {
+      "cv_mae_reps": 2.9020174169268174,
+      "heldout_mae_reps": 2.964377838042337
+    },
+    "gradient boosting": {
+      "cv_mae_reps": 2.9810498366327622,
+      "heldout_mae_reps": 3.0668404957559265
+    }
+  },
+  "best": "ridge",
+  "real_timing_set": {
+    "actual_stop_rep": 16,
+    "model_pred": 13.3,
+    "baseline_pred": 16.0
+  },
+  "note": "trained and evaluated on SIMULATED sets; real-timing set uses simulated EMG"
+}

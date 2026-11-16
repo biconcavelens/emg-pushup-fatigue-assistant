@@ -1,0 +1,20 @@
+{
+  "label": "pushup_set1",
+  "muscle": "triceps",
+  "subject": "s01",
+  "notes": "set 1 to failure, then continued",
+  "duration": 120.0,
+  "port": "/dev/ttyUSB0",
+  "baud": 115200,
+  "camera": 0,
+  "fps": 30.0,
+  "preview": true,
+  "fake": false,
+  "no_camera": false,
+  "no_emg": false,
+  "out": "recordings",
+  "emg_samples": 31673,
+  "emg_hz_measured": 500.0,
+  "video_fps_measured": 17.7,
+  "emg_type": "envelope (Advancer v3: rectified+smoothed), 10-bit ADC"
+}

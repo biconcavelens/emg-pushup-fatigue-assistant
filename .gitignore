@@ -1,0 +1,7 @@
+.env
+.venv/
+__pycache__/
+recordings/*/video.mp4
+recordings/*/frames.csv
+models/pose_landmarker_lite.task
+*.pdf
